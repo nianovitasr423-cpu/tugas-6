@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int pilihan,penumpang,harga,total;
     string tujuan;
-    cout<<"-----Harga Tiket Tujuan-----";
+    cout<<"---HARGA TIKET TUJUAN---"<<endl;
     cout<<"Malang-Surabaya: Rp35000"<<endl;
     cout<<"Malang-Pasuruan: Rp20000"<<endl;
     cout<<"Malang-Jombang: Rp25000"<<endl;
