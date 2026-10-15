@@ -3,13 +3,23 @@
 
 #include <iostream>
 using namespace std;
-int main() {
-    int pilihan,penumpang,harga,total;
-    string tujuan;
+int pilihan,penumpang,harga,total;
+string tujuan;
+void tiket()
+{
     cout<<"---HARGA TIKET TUJUAN---"<<endl;
     cout<<"Malang-Surabaya: Rp35000"<<endl;
     cout<<"Malang-Pasuruan: Rp20000"<<endl;
     cout<<"Malang-Jombang: Rp25000"<<endl;
+}
+void to ()
+{
+    cout<<"Pilih tiket tujuan anda: ";
+    cin>>pilihan;
+}
+int main() {
+    tiket();
+    to();
         
     
 
