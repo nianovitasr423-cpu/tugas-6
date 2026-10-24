@@ -19,9 +19,46 @@ void to ()
 
     if (pilihan==1)
     {
-        tujuan="Malang-Surabaya";
-        harga=35000;
+        cout<<"_________________________"<<endl;
+        cout<<"Tujuan= Malang-Surabaya"<<endl;
+        cout<<"Harga= Rp35000"<<endl;
+        cout<<"_________________________"<<endl;
     }
+    else if (pilihan==2)
+    {
+        cout<<"_________________________"<<endl;
+        cout<<"Tujuan= Malang-Pasuruan"<<endl;
+        cout<<"Harga= Rp20000"<<endl;
+        cout<<"_________________________"<<endl;
+    }
+    else if (pilihan==3)
+    {
+        cout<<"_________________________"<<endl;
+        cout<<"Tujuan= Malang-Jombang"<<endl;
+        cout<<"Harga= Rp25000"<<endl;
+        cout<<"_________________________"<<endl;
+    }
+    else 
+    {
+        cout<<"_________________________"<<endl;
+        cout<<"Pilihan tidak tersedia."<<endl;
+        cout<<"_________________________"<<endl;
+    }
+
+    cout<<"Masukkan Jumlah Penumpang: ";
+    cin>>penumpang;
+    total=harga*penumpang;
+    cout<<"_________________________"<<endl;
+    cout<<"---DETAIL TIKET---"<<endl;
+    cout<<"Tujuan: ";
+    cout<<tujuan<<endl;
+    cout<<"Jumlah Penumpang: ";
+    cout<<penumpang<<endl;
+    cout<<"Total Harga: ";
+    cout<<total<<endl;
+    
+    
+        
 }
 int main() {
     tiket();
