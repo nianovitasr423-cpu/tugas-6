@@ -19,6 +19,8 @@ void to ()
 
     if (pilihan==1)
     {
+        tujuan="malang-surabaya";
+        harga=35000;
         cout<<"_________________________"<<endl;
         cout<<"Tujuan= Malang-Surabaya"<<endl;
         cout<<"Harga= Rp35000"<<endl;
@@ -26,6 +28,8 @@ void to ()
     }
     else if (pilihan==2)
     {
+        tujuan="Malang-Pasuruan";
+        harga=20000;
         cout<<"_________________________"<<endl;
         cout<<"Tujuan= Malang-Pasuruan"<<endl;
         cout<<"Harga= Rp20000"<<endl;
@@ -33,6 +37,8 @@ void to ()
     }
     else if (pilihan==3)
     {
+        tujuan="Malang-Jombang";
+        harga=25000;
         cout<<"_________________________"<<endl;
         cout<<"Tujuan= Malang-Jombang"<<endl;
         cout<<"Harga= Rp25000"<<endl;
@@ -56,6 +62,7 @@ void to ()
     cout<<penumpang<<endl;
     cout<<"Total Harga: ";
     cout<<total<<endl;
+    system("pause");
     
     
         
